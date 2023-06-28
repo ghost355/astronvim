@@ -12,5 +12,5 @@ return {
   { import = "astrocommunity.motion.nvim-spider" },
   -- sneak like motion with s/S and double symbol
   { import = "astrocommunity.motion.leap-nvim" },
-  --
+  -- just for testing new branch
 }
