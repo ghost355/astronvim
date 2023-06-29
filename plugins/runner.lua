@@ -7,7 +7,8 @@ return {
         mode = "toggleterm",
         focus = true,
         filetype = {
-          python = "python3 -u",
+          python = {"cd $dir &&",
+                    "python3 $fileName"},
           cpp = { "cd $dir &&",
                   "clang++ $fileName -o $fileNameWithoutExt -g -std=c++20 -Wall &&",
                   "./$fileNameWithoutExt"
