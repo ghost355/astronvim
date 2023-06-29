@@ -21,6 +21,14 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+
+    -- Runner
+    ["<leader>r"] = { name = " Code"},
+    ["<leader>rc"] = { "<cmd>RunCode<cr>", desc = "Run Code"},
+    ["<leader>rx"] = { "<cmd>RunClose<cr>", desc = "Run Close"},
+    ["<leader>rf"] = { "<cmd>RunFile<cr>", desc = "Run File"},
+    ["<leader>rp"] = { "<cmd>RunProject<cr>", desc = "Run Project"},
+
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },

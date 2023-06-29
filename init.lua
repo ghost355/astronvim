@@ -1,6 +1,7 @@
 return {
   -- Use :LuaSnipEdit command for edit snippets for current buffer filetype
   vim.api.nvim_create_user_command('LuaSnipEdit', ':lua require("luasnip.loaders").edit_snippet_files()', {}),
+
   -- Configure AstroNvim updates
   updater = {
     remote = "origin",     -- remote to use
@@ -20,11 +21,11 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "habamax",
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
-    virtual_text = true,
+    virtual_text = false,
     underline = true,
   },
 

@@ -12,5 +12,9 @@ return {
   { import = "astrocommunity.motion.nvim-spider" },
   -- sneak like motion with s/S and double symbol
   { import = "astrocommunity.motion.leap-nvim" },
-  -- just for testing new branch
+  -- add some colorshemes
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim", enabled = true },
+  -- { import = "astrocommunity.code-runner.compiler-nvim" },
 }
