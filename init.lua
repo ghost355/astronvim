@@ -1,6 +1,6 @@
 return {
   -- Use :LuaSnipEdit command for edit snippets for current buffer filetype
-  vim.api.nvim_create_user_command('LuaSnipEdit', ':lua require("luasnip.loaders").edit_snippet_files()', {}),
+  vim.api.nvim_create_user_command("LuaSnipEdit", ':lua require("luasnip.loaders").edit_snippet_files()', {}),
 
   -- Configure AstroNvim updates
   updater = {
